@@ -1,7 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { logoutUser } from '../authSlice';
-// 1. Import the image here
 import site1Img from '../assets/site1.jpg'; 
 
 function Homepage() {
